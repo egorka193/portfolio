@@ -1,0 +1,45 @@
+.feedback {
+    background: url(/img/Background_Contacts.png) center / cover no-repeat;
+    margin-top: 128px;
+    padding-bottom: 200px;
+    background-position-y: -200px;
+}
+.feedback__text-top {
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: center;
+    color: $color-purple;
+    margin-bottom: 8px;
+}
+.feedback__title{
+    font-family: "Asap", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: $gray-600;
+    margin-bottom: 8px;
+}
+.feedback__text-bottom {
+    text-align: center;
+    color: $gray-500;
+    margin-bottom: 48px;
+}
+.feedback__contacts {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    div{
+        background-color: $gray-300;
+        display: flex;
+        min-width: 350px;
+        gap: 12px;
+        padding: 10px;
+        border-radius: 8px;
+        img{
+           margin-right: 20px;
+        }
+        p{
+            color: $gray-500;
+        }
+    }
+}

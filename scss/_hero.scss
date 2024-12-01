@@ -1,0 +1,51 @@
+.hero{
+    background: url(/img/Background_Intro.png) center / cover no-repeat;
+    margin-bottom: 162px;
+    margin-top: 120px;
+}
+.hero__avatar img{
+   width: 112px;
+   height: 112px;
+   border-radius: 50%;
+   margin-bottom: 56px;
+}
+.hero__acquaintance {
+    color: $gray-500;
+    margin-bottom: 8px;
+}
+.hero__proffesion {
+    color: $gray-600;
+    margin-bottom: 20px;
+}
+.hero__text {
+    color: $gray-400;
+    max-width: 680px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.hero__wrapper{
+    text-align: center;
+}
+.hero__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 90px;
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $gray-300;
+        border: none;
+        border-radius: 30px;
+        padding: 8px 20px;
+        gap: 8px;
+        p{
+            color: $gray-500;
+        }
+    }  
+}
+.hero__DoubleDown{
+    margin: 0 auto;
+}
