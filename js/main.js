@@ -1,7 +1,7 @@
 const arrow = document.querySelector('.hero__doubledown');
 console.log(arrow);
 function handleClick(){
-    window.scrollBy(0, 800)
+    window.scrollBy(0, document.documentElement.clientHeight)
 }
 
 
