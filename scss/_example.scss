@@ -21,20 +21,22 @@
     max-width: 1040px;
     margin: 0 auto;
     gap: 24px;
+    
     h4{
         color: $gray-600;
         margin-bottom: 8px;
     }
     p{
         color: $gray-500;
-        margin-bottom: 21px;
+        
     }
-    div{
+    & > div{
         background-color: $gray-300;
         max-width: 330px;
         max-height: 280px;
         padding: 12px;
         border-radius: 12px;
+        padding-bottom: 21px;
     }
     img{
         margin-bottom: 20px;
