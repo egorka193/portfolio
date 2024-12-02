@@ -40,6 +40,13 @@
         }
     }
 }
+.contacts__contacts {
+    & > div:hover{
+        cursor: pointer;
+        border: 1px solid $color-purple;
+        transform: scale(110%);
+    }
+}
 
 .contacts__wrapper{
     display: flex;

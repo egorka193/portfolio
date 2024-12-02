@@ -46,6 +46,12 @@
         }
     }  
 }
-.hero__DoubleDown{
+.hero__doubledown{
     margin: 0 auto;
+    cursor: pointer;
+}
+.hero__doubledown:hover{ 
+    transition: all 0.5s;
+    background-color: $gray-600;
+    border-radius: 50%;
 }
