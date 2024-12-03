@@ -69,3 +69,27 @@
     background-color: $gray-200;
     border: none;
 }
+
+
+@media(max-width: 768px){
+    .hero{
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .hero__acquaintance{
+        font-size: 12px;
+    }
+    .hero__proffesion{
+        font-size: 24px;
+    }
+    .hero__text{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .hero__buttons{
+        flex-wrap: wrap;
+    }
+    .hero__avatar{
+        margin-bottom: 40px;
+    }
+}
