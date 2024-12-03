@@ -88,6 +88,11 @@ body {
   background-color: #E2E4E9;
 }
 
+.hero__button-doubledown {
+  background-color: #16181D;
+  border: none;
+}
+
 .examples {
   margin-bottom: 144px;
 }
@@ -135,9 +140,8 @@ body {
 }
 
 .help {
-  padding-bottom: 120px;
   background-color: #0D0E11;
-  padding-top: 80px;
+  padding: 80px 0 120px;
 }
 
 .help__text {
@@ -215,10 +219,11 @@ body {
   background-color: #292C34;
   display: flex;
   border-radius: 8px;
+  border: 1px solid #292C34;
 }
 .contacts__social > a:hover {
   cursor: pointer;
-  border: 1px solid #BB72E9;
+  border-color: #BB72E9;
 }
 .contacts__social > a img {
   margin-right: 20px;
