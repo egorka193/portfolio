@@ -21,7 +21,7 @@
     max-width: 1040px;
     margin: 0 auto;
     gap: 24px;
-    
+    justify-content: center;
     h4{
         color: $gray-600;
         margin-bottom: 8px;
@@ -40,5 +40,17 @@
     }
     img{
         margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 768px){
+    .examples__text{
+        font-size: 16px;
+    }
+    .examples__title{
+        font-size: 20px;
+    }
+    .examples{
+        margin-bottom: 80px;
     }
 }
