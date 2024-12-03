@@ -1,0 +1,38 @@
+.help {
+    background-color: $gray-100;
+    padding: 80px 0 120px;
+}
+.help__text {
+    font-family: "Inconsolata", monospace;
+    color: $color-red;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.help__title {
+    color: $gray-600;
+    text-align: center;
+    font-family: "Asap", sans-serif;
+    margin-bottom: 56px;
+    font-size: 24px;
+}
+.help__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    & > div{
+        padding: 20px;
+        width: 280px;
+        border-radius: 12px;
+        border: 1px solid $gray-200;
+    }
+    h5{
+        color: $gray-600;
+        margin-bottom: 8px;
+    }
+    p{
+        color: $gray-500;
+    }
+}
+
